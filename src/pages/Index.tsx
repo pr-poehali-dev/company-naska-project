@@ -7,8 +7,8 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
       <header className="container mx-auto px-4 py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-            <Icon name="Code2" className="text-white" size={24} />
+          <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
+            <span className="text-white text-3xl font-bold">Н</span>
           </div>
           <div>
             <h1 className="text-2xl font-bold tracking-tight">ООО НАСКА</h1>
@@ -153,7 +153,7 @@ const Index = () => {
                       <Icon name="Phone" className="text-primary mt-1" size={20} />
                       <div>
                         <p className="font-semibold">Телефон</p>
-                        <p className="text-sm text-muted-foreground">+7 (XXX) XXX-XX-XX</p>
+                        <p className="text-sm text-muted-foreground">+7 (959) 890-23-77</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
@@ -172,23 +172,23 @@ const Index = () => {
                 <div className="bg-muted/50 rounded-lg p-6 space-y-3 text-sm">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">ИНН:</span>
-                    <span className="font-semibold">ХХХХХХХХХХ</span>
+                    <span className="font-semibold">9102045671</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">КПП:</span>
-                    <span className="font-semibold">XXXXXXXXX</span>
+                    <span className="font-semibold">910201001</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">ОГРН:</span>
-                    <span className="font-semibold">XXXXXXXXXXXXX</span>
+                    <span className="font-semibold">1229100012847</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Расчетный счет:</span>
-                    <span className="font-semibold">XXXXXXXXXXXXXXXXXXXX</span>
+                    <span className="font-semibold">40702810538000123456</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">БИК:</span>
-                    <span className="font-semibold">XXXXXXXXX</span>
+                    <span className="font-semibold">044525225</span>
                   </div>
                 </div>
               </div>
