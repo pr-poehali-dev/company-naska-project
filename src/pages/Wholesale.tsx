@@ -15,17 +15,17 @@ const Wholesale = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <div className="inline-block">
               <span className="text-sm font-semibold text-primary bg-primary/10 px-4 py-2 rounded-full">
-                Оптовая торговля
+                Раздел 1 / Услуги
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
-              Надежные поставки <br />
+              Заголовок раздела <br />
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                для вашего бизнеса
+                Здесь можно добавить свой текст
               </span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Обеспечиваем бесперебойные поставки товаров для юридических лиц с 2022 года
+              Здесь можно добавить описание вашего раздела или услуг
             </p>
           </div>
         </div>
@@ -95,8 +95,8 @@ const Wholesale = () => {
                 <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center mx-auto">
                   <Icon name="Trophy" className="text-primary" size={24} />
                 </div>
-                <h4 className="font-semibold">Опыт с 2022</h4>
-                <p className="text-sm text-muted-foreground">Проверенная репутация</p>
+                <h4 className="font-semibold">Преимущество 1</h4>
+                <p className="text-sm text-muted-foreground">Описание преимущества</p>
               </div>
               <div className="space-y-2">
                 <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center mx-auto">
@@ -135,10 +135,10 @@ const Wholesale = () => {
               Свяжитесь с нами для обсуждения условий поставки и получения коммерческого предложения
             </p>
             <div className="flex gap-4 justify-center pt-4">
-              <a href="tel:+79598902377">
+              <a href="tel:+7XXXXXXXXXX">
                 <Button size="lg" className="gap-2">
                   <Icon name="Phone" size={20} />
-                  +7 (959) 890-23-77
+                  +7 (XXX) XXX-XX-XX
                 </Button>
               </a>
               <Link to="/contacts">

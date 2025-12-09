@@ -44,8 +44,8 @@ const Contacts = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Организация</h3>
-                      <p className="text-sm text-muted-foreground">ООО "НАСКА"</p>
-                      <p className="text-sm text-muted-foreground">Общество с ограниченной ответственностью</p>
+                      <p className="text-sm text-muted-foreground">Название компании</p>
+                      <p className="text-sm text-muted-foreground">Организационно-правовая форма</p>
                     </div>
                   </div>
 
@@ -55,8 +55,8 @@ const Contacts = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Телефон</h3>
-                      <a href="tel:+79598902377" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                        +7 (959) 890-23-77
+                      <a href="tel:+7XXXXXXXXXX" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                        +7 (XXX) XXX-XX-XX
                       </a>
                       <p className="text-xs text-muted-foreground mt-1">Звонки принимаем с 9:00 до 18:00</p>
                     </div>
@@ -68,8 +68,8 @@ const Contacts = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <a href="mailto:info@nasca.example" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                        info@nasca.example
+                      <a href="mailto:info@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                        info@example.com
                       </a>
                       <p className="text-xs text-muted-foreground mt-1">Ответим в течение 24 часов</p>
                     </div>
@@ -88,13 +88,13 @@ const Contacts = () => {
                 </div>
 
                 <div className="pt-6 flex gap-3">
-                  <a href="tel:+79598902377" className="flex-1">
+                  <a href="tel:+7XXXXXXXXXX" className="flex-1">
                     <Button className="w-full gap-2">
                       <Icon name="Phone" size={18} />
                       Позвонить
                     </Button>
                   </a>
-                  <a href="mailto:info@nasca.example" className="flex-1">
+                  <a href="mailto:info@example.com" className="flex-1">
                     <Button variant="outline" className="w-full gap-2">
                       <Icon name="Mail" size={18} />
                       Написать
@@ -114,34 +114,34 @@ const Contacts = () => {
                       <span className="text-sm text-muted-foreground">Полное наименование:</span>
                     </div>
                     <div className="font-semibold text-sm">
-                      Общество с ограниченной ответственностью "НАСКА"
+                      Полное наименование компании
                     </div>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-muted/50 rounded-lg p-4">
                       <div className="text-xs text-muted-foreground mb-2">ИНН</div>
-                      <div className="font-semibold">9102045671</div>
+                      <div className="font-semibold">XXXXXXXXXX</div>
                     </div>
                     <div className="bg-muted/50 rounded-lg p-4">
                       <div className="text-xs text-muted-foreground mb-2">КПП</div>
-                      <div className="font-semibold">910201001</div>
+                      <div className="font-semibold">XXXXXXXXX</div>
                     </div>
                   </div>
 
                   <div className="bg-muted/50 rounded-lg p-4">
                     <div className="text-xs text-muted-foreground mb-2">ОГРН</div>
-                    <div className="font-semibold">1229100012847</div>
+                    <div className="font-semibold">XXXXXXXXXXXXX</div>
                   </div>
 
                   <div className="bg-muted/50 rounded-lg p-4">
                     <div className="text-xs text-muted-foreground mb-2">Расчетный счет</div>
-                    <div className="font-semibold text-sm">40702810538000123456</div>
+                    <div className="font-semibold text-sm">XXXXXXXXXXXXXXXXXXXX</div>
                   </div>
 
                   <div className="bg-muted/50 rounded-lg p-4">
                     <div className="text-xs text-muted-foreground mb-2">БИК банка</div>
-                    <div className="font-semibold">044525225</div>
+                    <div className="font-semibold">XXXXXXXXX</div>
                   </div>
                 </div>
 

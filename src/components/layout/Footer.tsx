@@ -7,56 +7,51 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white text-2xl font-bold">Н</span>
-              </div>
-              <span className="font-bold text-lg">ООО НАСКА</span>
-            </div>
-            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Надежный партнер в области оптовых поставок и разработки программного обеспечения
+            <span className="font-bold text-lg">Название компании</span>
+            <p className="text-sm text-muted-foreground leading-relaxed mt-4 mb-4">
+              Краткое описание деятельности вашей компании. Здесь можно добавить свой текст о том, чем вы занимаетесь.
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Icon name="Mail" size={18} className="text-primary" />
               </a>
-              <a href="tel:+79598902377" className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+              <a href="#" className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Icon name="Phone" size={18} className="text-primary" />
               </a>
             </div>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Услуги</h4>
+            <h4 className="font-semibold mb-4">Разделы</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link to="/wholesale" className="hover:text-primary transition-colors flex items-center gap-1">
                   <Icon name="ChevronRight" size={14} />
-                  Оптовая торговля
+                  Услуги
                 </Link>
               </li>
               <li>
                 <Link to="/development" className="hover:text-primary transition-colors flex items-center gap-1">
                   <Icon name="ChevronRight" size={14} />
-                  Разработка ПО
+                  О нас
                 </Link>
               </li>
               <li>
                 <Link to="/clients" className="hover:text-primary transition-colors flex items-center gap-1">
                   <Icon name="ChevronRight" size={14} />
-                  Наши клиенты
+                  Клиенты
                 </Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Компания</h4>
+            <h4 className="font-semibold mb-4">Информация</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link to="/" className="hover:text-primary transition-colors flex items-center gap-1">
                   <Icon name="ChevronRight" size={14} />
-                  О компании
+                  Главная
                 </Link>
               </li>
               <li>
@@ -75,30 +70,26 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Контакты</h4>
+            <h4 className="font-semibold mb-4">Свяжитесь с нами</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Icon name="Phone" size={16} className="text-primary mt-0.5" />
-                <a href="tel:+79598902377" className="hover:text-primary transition-colors">
-                  +7 (959) 890-23-77
-                </a>
+                <span>+7 (XXX) XXX-XX-XX</span>
               </li>
               <li className="flex items-start gap-2">
                 <Icon name="Mail" size={16} className="text-primary mt-0.5" />
-                <a href="mailto:info@nasca.example" className="hover:text-primary transition-colors">
-                  info@nasca.example
-                </a>
+                <span>info@example.com</span>
               </li>
               <li className="flex items-start gap-2">
-                <Icon name="Building2" size={16} className="text-primary mt-0.5" />
-                <span>ИНН: 9102045671</span>
+                <Icon name="MapPin" size={16} className="text-primary mt-0.5" />
+                <span>Ваш адрес</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} ООО "НАСКА". Все права защищены.</p>
+          <p>© {new Date().getFullYear()} Название компании. Все права защищены.</p>
         </div>
       </div>
     </footer>

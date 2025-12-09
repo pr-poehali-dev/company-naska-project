@@ -6,64 +6,64 @@ import Footer from "@/components/layout/Footer";
 const Clients = () => {
   const clients = [
     { 
-      name: "ООО ЮГМК", 
+      name: "Клиент 1", 
       icon: "Building2",
-      description: "Поставки материалов для металлургического комбината"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО ЮГМК Донецк", 
+      name: "Клиент 2", 
       icon: "Factory",
-      description: "Комплексные поставки производственного оборудования"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ГУП ЛНР Востокуголь", 
+      name: "Клиент 3", 
       icon: "Fuel",
-      description: "Снабжение угольного предприятия"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ГУП ЛНР Почта ЛНР", 
+      name: "Клиент 4", 
       icon: "Mail",
-      description: "Разработка системы учета отправлений"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ГУП ЛНР РСК", 
+      name: "Клиент 5", 
       icon: "Building",
-      description: "Поставки строительных материалов"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО СПАР", 
+      name: "Клиент 6", 
       icon: "ShoppingBag",
-      description: "Оптовые поставки для торговой сети"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО Авто-восток", 
+      name: "Клиент 7", 
       icon: "Car",
-      description: "Поставки автокомплектующих и расходников"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО ТехноПром", 
+      name: "Клиент 8", 
       icon: "Cog",
-      description: "Промышленное оборудование и запчасти"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО СтройМастер", 
+      name: "Клиент 9", 
       icon: "HardHat",
-      description: "Строительные материалы и инструменты"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО АгроТех", 
+      name: "Клиент 10", 
       icon: "Wheat",
-      description: "Сельскохозяйственное оборудование"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО ЭнергоСервис", 
+      name: "Клиент 11", 
       icon: "Zap",
-      description: "Электротехническое оборудование"
+      description: "Описание сотрудничества"
     },
     { 
-      name: "ООО ТрансЛогистик", 
+      name: "Клиент 12", 
       icon: "Truck",
-      description: "Логистические решения и поставки"
+      description: "Описание сотрудничества"
     }
   ];
 
@@ -124,8 +124,8 @@ const Clients = () => {
                     <div className="text-sm text-muted-foreground">Постоянных клиентов</div>
                   </div>
                   <div className="space-y-2">
-                    <div className="text-4xl font-bold text-primary">2022</div>
-                    <div className="text-sm text-muted-foreground">Год основания</div>
+                    <div className="text-4xl font-bold text-primary">XXXX</div>
+                    <div className="text-sm text-muted-foreground">Ваша цифра</div>
                   </div>
                   <div className="space-y-2">
                     <div className="text-4xl font-bold text-primary">100%</div>

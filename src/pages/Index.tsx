@@ -14,29 +14,29 @@ const Index = () => {
         <div className="max-w-4xl mx-auto space-y-6">
           <div className="inline-block">
             <span className="text-sm font-semibold text-primary bg-primary/10 px-4 py-2 rounded-full">
-              Надежный партнер для вашего бизнеса
+              Здесь можно добавить свой текст
             </span>
           </div>
           <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight">
-            Оптовые поставки <br />
+            Заголовок вашего <br />
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              и IT-решения
+              веб-сайта
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Мы обеспечиваем бесперебойные поставки для юридических лиц и создаем современное программное обеспечение для вашего бизнеса
+            Здесь можно добавить описание вашей компании или услуг. Расскажите посетителям о том, что вы предлагаете и почему они должны выбрать именно вас.
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Link to="/wholesale">
               <Button size="lg" className="gap-2 hover-scale">
                 <Icon name="ShoppingCart" size={20} />
-                Оптовая торговля
+                Услуги
               </Button>
             </Link>
             <Link to="/development">
               <Button size="lg" variant="outline" className="gap-2 hover-scale">
-                <Icon name="Code2" size={20} />
-                Разработка ПО
+                <Icon name="Info" size={20} />
+                О нас
               </Button>
             </Link>
           </div>
@@ -50,22 +50,22 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center">
                 <Icon name="Package" className="text-primary" size={32} />
               </div>
-              <h3 className="text-2xl font-bold">Оптовая торговля</h3>
+              <h3 className="text-2xl font-bold">Раздел 1</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Поставки товаров для юридических лиц с 2022 года. Работаем на условиях полной предоплаты или товарного кредита.
+                Здесь можно добавить описание вашей первой услуги или направления деятельности. Расскажите о преимуществах и особенностях.
               </p>
               <div className="space-y-3 pt-4">
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-primary mt-1" size={20} />
-                  <span className="text-sm">Надежные поставки</span>
+                  <span className="text-sm">Первое преимущество</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-primary mt-1" size={20} />
-                  <span className="text-sm">Гибкие условия оплаты</span>
+                  <span className="text-sm">Второе преимущество</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-primary mt-1" size={20} />
-                  <span className="text-sm">Опытный исполнительный директор</span>
+                  <span className="text-sm">Третье преимущество</span>
                 </div>
               </div>
               <Link to="/wholesale">
@@ -79,22 +79,22 @@ const Index = () => {
               <div className="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center">
                 <Icon name="Laptop" className="text-secondary" size={32} />
               </div>
-              <h3 className="text-2xl font-bold">Разработка ПО</h3>
+              <h3 className="text-2xl font-bold">Раздел 2</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Создаем программное обеспечение для местных компаний. Команда профессиональных разработчиков и менеджеров.
+                Здесь можно добавить описание вашей второй услуги или направления деятельности. Объясните, почему это важно для клиентов.
               </p>
               <div className="space-y-3 pt-4">
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-secondary mt-1" size={20} />
-                  <span className="text-sm">Индивидуальный подход</span>
+                  <span className="text-sm">Первое преимущество</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-secondary mt-1" size={20} />
-                  <span className="text-sm">Современные технологии</span>
+                  <span className="text-sm">Второе преимущество</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-secondary mt-1" size={20} />
-                  <span className="text-sm">Гибкая команда экспертов</span>
+                  <span className="text-sm">Третье преимущество</span>
                 </div>
               </div>
               <Link to="/development">
@@ -107,8 +107,8 @@ const Index = () => {
 
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h3 className="text-3xl font-bold mb-4">Почему выбирают нас</h3>
-          <p className="text-muted-foreground">Преимущества работы с ООО НАСКА</p>
+          <h3 className="text-3xl font-bold mb-4">Наши преимущества</h3>
+          <p className="text-muted-foreground">Почему выбирают нас</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <Card className="hover-scale">
@@ -116,8 +116,8 @@ const Index = () => {
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto">
                 <Icon name="Shield" className="text-primary" size={28} />
               </div>
-              <h4 className="font-semibold text-lg">Надежность</h4>
-              <p className="text-sm text-muted-foreground">Работаем с крупнейшими предприятиями региона</p>
+              <h4 className="font-semibold text-lg">Качество</h4>
+              <p className="text-sm text-muted-foreground">Высокое качество наших услуг и продукции</p>
             </CardContent>
           </Card>
           <Card className="hover-scale">
@@ -125,8 +125,8 @@ const Index = () => {
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto">
                 <Icon name="Clock" className="text-primary" size={28} />
               </div>
-              <h4 className="font-semibold text-lg">Оперативность</h4>
-              <p className="text-sm text-muted-foreground">Быстрая обработка заказов и выполнение работ</p>
+              <h4 className="font-semibold text-lg">Скорость</h4>
+              <p className="text-sm text-muted-foreground">Быстрое выполнение заказов и реагирование на запросы</p>
             </CardContent>
           </Card>
           <Card className="hover-scale">
@@ -134,8 +134,8 @@ const Index = () => {
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto">
                 <Icon name="Users" className="text-primary" size={28} />
               </div>
-              <h4 className="font-semibold text-lg">Профессионализм</h4>
-              <p className="text-sm text-muted-foreground">Опытная команда специалистов</p>
+              <h4 className="font-semibold text-lg">Команда</h4>
+              <p className="text-sm text-muted-foreground">Опытные специалисты в своей области</p>
             </CardContent>
           </Card>
         </div>

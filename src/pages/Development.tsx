@@ -15,17 +15,17 @@ const Development = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <div className="inline-block">
               <span className="text-sm font-semibold text-secondary bg-secondary/10 px-4 py-2 rounded-full">
-                Разработка ПО
+                Раздел 2 / О нас
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
-              Современные решения <br />
+              Заголовок раздела <br />
               <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
-                для вашего бизнеса
+                Здесь можно добавить свой текст
               </span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Разрабатываем программное обеспечение, которое решает реальные задачи бизнеса
+              Здесь можно добавить описание вашего раздела или компании
             </p>
           </div>
         </div>
@@ -180,10 +180,10 @@ const Development = () => {
               Расскажите о задаче, и мы предложим оптимальное решение с учетом ваших требований и бюджета
             </p>
             <div className="flex gap-4 justify-center pt-4">
-              <a href="tel:+79598902377">
+              <a href="tel:+7XXXXXXXXXX">
                 <Button size="lg" className="gap-2">
                   <Icon name="Phone" size={20} />
-                  +7 (959) 890-23-77
+                  +7 (XXX) XXX-XX-XX
                 </Button>
               </a>
               <Link to="/contacts">
